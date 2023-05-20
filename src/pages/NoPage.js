@@ -1,13 +1,16 @@
 import React from "react";
 import "../App.css";
+import { Link } from "react-router-dom";
 
 function Contact() {
   return (
-    <div className="wrapper">
-      <div className="App">
-        <h1>Hello!</h1>
-        <h2>This is 404 page.</h2>
-      </div>
+    <div className="App">
+      <h2>This is 404 page.</h2>
+      <p>
+        The page you are looking for is either unavailable or does not exist.
+        <br /> <br />
+        <Link to="/">Back to homepage</Link>
+      </p>
     </div>
   );
 }
