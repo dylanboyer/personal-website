@@ -18,7 +18,9 @@ const About = () => {
       </p>
       <br />
       <br />
-      <Link to="/">Back to homescreen</Link>
+      <Link to="/" className="link">
+        Back to homescreen
+      </Link>
     </div>
   );
 };

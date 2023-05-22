@@ -19,14 +19,20 @@ function Contact() {
       linkedin
       <p>
         <i>
-          <Link to="https://www.linkedin.com/in/dylanrboyer/" target="_blank">
-            connect with me!
+          <Link
+            to="https://www.linkedin.com/in/dylanrboyer/"
+            className="link"
+            target="_blank"
+          >
+            Connect with me!
           </Link>
         </i>
       </p>
       <br />
       <br />
-      <Link to="/">Back to homescreen</Link>
+      <Link to="/" className="link">
+        Back to homescreen
+      </Link>
     </div>
   );
 }
