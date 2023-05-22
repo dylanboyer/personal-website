@@ -14,7 +14,7 @@ const About = () => {
         manager at Chipotle Mexican Grill. Dylan is interested in learning more
         about designing both the front and backend of web applications to pursue
         a career as a fullstack developer. His latest efforts include creating
-        this website and learning C++ to expand upon his C knowledge.
+        this website and learning Python to practice programming fundamentals.
       </p>
       <br />
       <br />
