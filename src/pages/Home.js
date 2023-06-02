@@ -21,7 +21,7 @@ function Home() {
         &nbsp;//&nbsp;
         <a
           className="link"
-          href="https://drive.google.com/file/d/1F0tZv4nptVm5OuBKKmWgHvr-r6Qo7MSG/view?usp=sharing"
+          href="https://drive.google.com/file/d/1DAYtIy8WdGZBlvZUJrBNU1YP39qFtK7e/view?usp=sharing"
           target="_blank"
         >
           resume
