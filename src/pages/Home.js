@@ -9,7 +9,7 @@ function Home() {
       <h1>
         <em>DYLAN BOYER</em>
       </h1>
-      <img src="https://i.imgur.com/d2a4F3Q.jpg" width="250px" alt=""></img>
+      <img src="https://i.imgur.com/d2a4F3Q.jpg" width="250px" alt="" ></img>
       <br></br>
       <i>
         <TimeComponent />
