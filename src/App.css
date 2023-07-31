@@ -1,13 +1,12 @@
 .App {
   font-family: "Times New Roman", Times, serif;
-  min-height: 50vh;
+  min-height: 100vh;
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
   text-align: center;
   font-size: 12px;
-  vertical-align: middle;
 }
 
 .time-link {
