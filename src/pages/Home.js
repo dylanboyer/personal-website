@@ -9,7 +9,7 @@ function Home() {
       <h1>
         <em>DYLAN BOYER</em>
       </h1>
-      <img src="https://i.imgur.com/d2a4F3Q.jpg" width="250px" alt="" ></img>
+      <img src="https://i.imgur.com/d2a4F3Q.jpg" className="image" alt=""></img>
       <br></br>
       <i>
         <TimeComponent />
@@ -21,7 +21,7 @@ function Home() {
         &nbsp;//&nbsp;
         <a
           className="link"
-          href="https://drive.google.com/file/d/1F0tZv4nptVm5OuBKKmWgHvr-r6Qo7MSG/view?usp=sharing"
+          href="https://drive.google.com/file/d/1k83fjcyLIHexLy77QWpsZ1oyYejwtZeS/view?usp=sharing"
           target="_blank"
         >
           resume

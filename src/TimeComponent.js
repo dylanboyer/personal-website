@@ -12,12 +12,11 @@ const MyComponent = () => {
         id="time_is_link"
         target="_blank"
         rel="nofollow"
-        style={{ fontSize: "12px" }}
       >
         TIME IN WEST LAFAYETTE, IN
       </a>
       {" - "}
-      <span id="West_Lafayette_z13e" style={{ fontSize: "12px" }}></span>
+      <span id="West_Lafayette_z13e"></span>
     </>
   );
 };

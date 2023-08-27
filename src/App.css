@@ -6,7 +6,7 @@
   align-items: center;
   flex-direction: column;
   text-align: center;
-  font-size: 12px;
+  clear: both;
 }
 
 .time-link {
@@ -31,8 +31,7 @@
 }
 
 .bio {
-  font-size: 12px;
-  max-width: 370px;
+  max-width: 60%;
 }
 
 .time {
