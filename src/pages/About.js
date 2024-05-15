@@ -17,8 +17,10 @@ const About = () => {
         IN and is an undergraduate TA for CS 182 during the school year. Dylan
         is interested in learning more about backend development and working
         with AI. His latest efforts include working on the{" "}
-        <a href="https://www.boilerexams.com">Boilerexams</a> team and working with NLP in
-        Python.
+        <a className="link" target="_blank" href="https://www.boilerexams.com">
+          Boilerexams
+        </a>{" "}
+        team and working with NLP in Python.
       </p>
       <br />
       <Link to="/" className="link">
