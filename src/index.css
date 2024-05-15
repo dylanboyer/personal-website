@@ -1,48 +1,43 @@
 body {
-  overflow: hidden;
+  overflow: auto;
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
     "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
-@media screen and (min-device-width: 600px) {
+
+img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+@media screen and (min-device-width: 0px) {
   body {
     font-size: 12px;
   }
   .image {
-    max-width: 20%;
+    width: 50%;
     height: auto;
   }
+
   .portrait {
-    max-width: 6%;
+    width: 30%;
     height: auto;
   }
 }
 
-@media screen and (min-device-width: 600px) {
-  body {
-    font-size: 24px;
-  }
-  .image {
-    max-width: 35%;
-    height: auto;
-  }
-  .portrait {
-    max-width: 12%;
-    height: auto;
-  }
-}
 @media screen and (min-device-width: 1300px) {
   body {
     font-size: 30px;
   }
   .image {
-    max-width: 50%;
+    width: 50%;
     height: auto;
   }
   .portrait {
-    max-width: 18%;
+    width: 18%;
     height: auto;
   }
 }

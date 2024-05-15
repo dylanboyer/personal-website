@@ -1,21 +1,24 @@
 import React from "react";
 import "../App.css";
+import "../index.css";
 import portrait from "../website portrait.jpg";
 import { Link } from "react-router-dom";
 
 const About = () => {
   return (
     <div className="App">
-      <img src={portrait} className="portrait" alt="Portrait" />
+      <div className="portrait">
+        <img src={portrait} alt="Portrait" />
+      </div>
       <br />
       <p className="bio">
-        Dylan Boyer is currently a Sophomore at Purdue University in West
-        Lafayette. He studies Computer Science while working part-time as a
-        manager at Chipotle Mexican Grill. Dylan is interested in learning more
-        about designing both the front and backend of web applications to pursue
-        a career as a fullstack developer. His latest efforts include a
-        focus-keeping website blocker using Python and studying data structures
-        and algorithms for upcoming coding interviews.
+        Dylan Boyer is currently a Junior at Purdue University in West
+        Lafayette. He is currently an intern at Performance Services in Carmel,
+        IN and is an undergraduate TA for CS 182 during the school year. Dylan
+        is interested in learning more about backend development and working
+        with AI. His latest efforts include working on the{" "}
+        <a href="boilerexams.com">Boilerexams</a> team and working with NLP in
+        Python.
       </p>
       <br />
       <Link to="/" className="link">

@@ -1,5 +1,6 @@
 import React from "react";
 import "../App.css";
+import "../index.css";
 import { Link } from "react-router-dom";
 import TimeComponent from "../TimeComponent";
 
@@ -9,7 +10,9 @@ function Home() {
       <h1>
         <em>DYLAN BOYER</em>
       </h1>
-      <img src="https://i.imgur.com/d2a4F3Q.jpg" className="image" alt=""></img>
+      <div className="image">
+        <img src="https://i.imgur.com/d2a4F3Q.jpg" alt=""></img>
+      </div>
       <br></br>
       <i>
         <TimeComponent />
@@ -21,7 +24,7 @@ function Home() {
         &nbsp;//&nbsp;
         <a
           className="link"
-          href="https://drive.google.com/file/d/1k83fjcyLIHexLy77QWpsZ1oyYejwtZeS/view?usp=sharing"
+          href="https://drive.google.com/file/d/1qcOp1WJykOfHzPUDVm-z61L8mFJPtR14/view?usp=sharing"
           target="_blank"
         >
           resume
