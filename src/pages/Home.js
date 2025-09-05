@@ -2,7 +2,7 @@ import React from "react";
 import "../App.css";
 import "../index.css";
 import { Link } from "react-router-dom";
-import TimeComponent from "../TimeComponent";
+import TimeComponent from "../components/TimeComponent";
 
 function Home() {
   return (
@@ -11,7 +11,7 @@ function Home() {
         <em>DYLAN BOYER</em>
       </h1>
       <div className="image">
-        <img src="https://i.imgur.com/d2a4F3Q.jpg" alt=""></img>
+        <img src="/files/scenery.png" alt="Scenery"></img>
       </div>
       <br></br>
       <i>
@@ -22,13 +22,9 @@ function Home() {
           about
         </Link>
         &nbsp;//&nbsp;
-        <a
-          className="link"
-          href="https://drive.google.com/file/d/1qcOp1WJykOfHzPUDVm-z61L8mFJPtR14/view?usp=sharing"
-          target="_blank"
-        >
+        <Link to="/resume" className="link">
           resume
-        </a>
+        </Link>
         &nbsp;//&nbsp;
         <Link
           to="https://github.com/dylanboyer"

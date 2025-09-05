@@ -2,7 +2,7 @@ import React from "react";
 import "../App.css";
 import { Link } from "react-router-dom";
 
-function Contact() {
+function NoPage() {
   return (
     <div className="App">
       <h2>This is a 404 page.</h2>
@@ -15,4 +15,4 @@ function Contact() {
   );
 }
 
-export default Contact;
+export default NoPage;

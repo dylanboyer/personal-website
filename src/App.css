@@ -33,8 +33,28 @@
 
 .bio {
   max-width: 60%;
+  text-align: left;
 }
 
 .time {
   font-size: 11px;
+}
+
+.about-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+
+.portrait img {
+  max-width: 100%;
+  height: auto;
+  object-fit: contain;
+}
+
+.image img {
+  display: block;
+  margin-bottom: 20px;
+  border: 2px solid black;
 }

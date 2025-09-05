@@ -1,27 +1,40 @@
 import React from "react";
 import "../App.css";
 import "../index.css";
-import portrait from "../website portrait.jpg";
 import { Link } from "react-router-dom";
 
 const About = () => {
   return (
     <div className="App">
-      <div className="portrait">
-        <img src={portrait} alt="Portrait" />
+      <div className="about-container">
+        <div className="bio">
+          <p>
+            I am currently a senior at Purdue specializing in systems development.
+          </p>
+          <ul>
+            <li>Previous SWE intern at LinkedIn and Performance Services</li>
+            <li>Current TA for CS 252</li>
+            <li>
+              Former developer for{" "}
+              <a
+                className="link"
+                href="https://boilerexams.com/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                Boilerexams
+              </a>
+            </li>
+          </ul>
+          <p>
+            In my free time, I enjoy studying Korean, weightlifting, running, and
+            finding some great restaurants nearby :&#93;
+          </p>
+        </div>
+        <div className="portrait">
+          <img src="/files/headshot.png" alt="Portrait" />
+        </div>
       </div>
-      <br />
-      <p className="bio">
-        Dylan Boyer is currently a Junior at Purdue University in West
-        Lafayette. He is currently an intern at Performance Services in Carmel,
-        IN and is an undergraduate TA for CS 182 during the school year. Dylan
-        is interested in learning more about backend development and working
-        with AI. His latest efforts include working on the{" "}
-        <a className="link" target="_blank" href="https://www.boilerexams.com">
-          Boilerexams
-        </a>{" "}
-        team and working with NLP in Python.
-      </p>
       <br />
       <Link to="/" className="link">
         Back to homescreen
